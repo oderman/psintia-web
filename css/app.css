@@ -1,0 +1,92 @@
+body{
+	background-color:#005F95;
+}
+.sticky{
+	width:100%;
+}
+.sticky.is-anchored{
+	width:100%;
+}
+#menu-container{
+	background-color:#005F95;
+	vertical-align: middle;
+	padding:1em;
+}
+#menu-container li a{
+	color:#FFF;
+	font-size:15px;
+}
+#menu-container li a:hover{
+	color:#FFCA05;
+}
+.menuActivo{
+	color:#FFCA05 !important;
+}
+.menu.show-for-small-only li a{
+	background:#FFCA05;
+	color:#000 !important;
+	text-decoration:underline;
+}
+#redes-container{
+	background:#339A47;
+	color:#FFF;
+}
+#redes-container h3{
+	color:#FFF;
+}
+#infosintia-container{
+	padding:3em auto;
+	background-color:#EC1651;
+}
+#infosintia-container h1, h2, p{
+	color:#FFF;
+}
+#contenido-container{
+	padding:3em auto;
+	background-color:#FFF;
+}
+#contenido-container .row .button{
+	background:#ee3f54;
+}
+
+/* BOTONES*/
+.boton-verde{
+	background:#339A47 !important;
+}
+
+
+#prefooter-container, .callout{	
+	background-color:#005F95;
+	color:#FFF;
+}
+#prefooter-container li{
+	display:block;
+}
+#prefooter-container li a, p a{
+	color:#FFF;
+	text-decoration:underline;
+}
+#prefooter-container p a:hover{
+	color:#FFF;
+}
+#copy-container{
+	background:#0094D3;
+	margin-top:-1em;
+	padding:1em;
+}
+#copy-container a, p{
+	color:#FFF;
+}
+#offCanvas,
+#offCanvas li a{
+	background-color: #EC1651;
+	color:white;
+}
+#offCanvas .is-drilldown-submenu-parent > a::after,
+.js-drilldown-back > a::before{
+	border-color: transparent  #37266B;
+}
+.is-invalid-input:not(:focus){
+	background-color:#EC1651;
+	border-color:#f6e15f;
+}
